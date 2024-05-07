@@ -1,5 +1,6 @@
 // Antonio Pereda
 // Created: 4/24/2024
+// V-5.6.24
 // Phaser: 3.70.0
 //
 //
@@ -18,7 +19,7 @@ let config = {
     },
     width: 1000,
     height: 800,
-    scene: [OD_movement],
+    scene: [mainmenu,maingame,gameover],
     fps: { forceSetTimeOut: true, target: 30 }
 }
 
